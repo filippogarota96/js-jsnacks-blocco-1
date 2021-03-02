@@ -7,7 +7,7 @@
 var numero = parseInt(prompt('Inserisci un numero'));
 var risultato;
 for (numero = 0; numero >= 10; numero++) {
-  risultato = numero + numero;
+  risultato = numero+=
 }
 
 console.log (risultato);
