@@ -10,10 +10,10 @@ if (firstWord.length == secondWord.length) {
 
 } else if (firstWord.length > secondWord.length) {
 
-  console.log(firstWord);
   console.log(secondWord);
+  console.log(firstWord);
 
 } else {
-  console.log(secondWord);
   console.log(firstWord);
+  console.log(secondWord);
 }
