@@ -4,10 +4,12 @@
 
 // chiedo all'utente di inserire 10 volte un numero
 
-var numero = parseInt(prompt('Inserisci un numero'));
-var risultato;
-for (numero = 0; numero >= 10; numero++) {
-  risultato = numero+=
+var somma = 0;
+
+for (i = 1; i <= 10; i++ ) {
+  var numero = parseInt(prompt('Inserisci un numero'));
+  somma = somma + numero;
+  console.log(somma);
 }
 
-console.log (risultato);
+console.log(somma);
