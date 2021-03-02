@@ -8,7 +8,7 @@ var nome = prompt('Il tuo nome?');
 var nomeValido;
 
 for (i = 0; i < invitati.length; i++) {
-  if (nome === invitati[i]) {
+  if (nome.toLowercase() === invitati[i].toLowercase()) {
     nome = nomeValido
   }
 }
