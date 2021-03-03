@@ -3,6 +3,6 @@ indicato dall’utente.*/
 
 var number = parseInt(prompt("Numero utente:"));
 
-for (var i < 1; i <= number; i++) {
+for (var i = 0; i <= number; i++) {
   console.log(Math.pow(i, 3));
 }
