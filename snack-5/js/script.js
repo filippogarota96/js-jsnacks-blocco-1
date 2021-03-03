@@ -8,7 +8,7 @@ var numeri = [];
 
 for (i = 0; i <= 6 ; i++) {
   var numeroUtente = parseInt(prompt('Inserisci numero'));
-  if ((numeroUtente / 2) % 1) {
+  if (numeroUtente % 2 == 1) {
     numeri.push(numeroUtente);
   }
 }
