@@ -13,5 +13,5 @@ if (numero % 2 == 0) {
 }
 
 if (numero % 2 == 1) {
-  console.log(numero % 2 == 0);
+  console.log(numero = parseInt(prompt('Inserisci un numero')));
 }
