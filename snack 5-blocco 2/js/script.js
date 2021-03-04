@@ -4,11 +4,14 @@
 
   /*creo i due array*/
 
-  var firstArray = [3, 5, 6, 8];
+  var firstArray = [3, 5, 6, 5];
   var secondArray = [12, 43, 16, 67, 32];
 
-  do {
+  while (firstArray.length < secondArray.length) {
+
     firstArray.push(Math.floor(Math.random() * 10));
-  } while (firstArray.length == secondArray.length);
+    firstArray.length == secondArray.length;
+  }
 
   console.log(firstArray);
+  console.log(secondArray);
